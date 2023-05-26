@@ -28,12 +28,12 @@ public class Cat {
 
 	public void sleep() {
 		sleep = sleep + 1;
-		System.out.println("The cat " + nickname + sleep + " hours in day");
+		System.out.println("The cat " + nickname + sleep );
 	}
 
 	public void eat() {
 		weight = weight + 1;
-		System.out.println("The cat " + nickname + weight + " weight after eating");
+		System.out.println("The cat " + nickname + weight );
 	}
 
 	public void walk() {
