@@ -22,24 +22,23 @@ public class Cat {
 	}
 
 	public void grow() {
-		age = age + 1;
-		System.out.println("The cat " + nickname + " getting older: " + age );
+		age++;
+		System.out.println("The cat " + nickname + " getting older: " + age);
 	}
 
 	public void sleep() {
-		sleep = sleep + 1;
-		System.out.println("The cat " + nickname + sleep );
+		sleep++;
+		System.out.println("The cat " + nickname + sleep);
 	}
 
 	public void eat() {
-		weight = weight + 1;
-		System.out.println("The cat " + nickname + weight );
+		weight++;
+		System.out.println("The cat " + nickname + weight);
 	}
 
 	public void walk() {
-		weight = weight - 1;
-		System.out
-				.println("The cat " + nickname  + weight );
+		weight++;
+		System.out.println("The cat " + nickname + weight);
 	}
 
 	public int getmoney() {
@@ -66,12 +65,5 @@ public class Cat {
 
 	public void setisHomeAnimals(boolean isHomeAnimals) {
 		this.isHomeAnimals = isHomeAnimals;
-	}
-
-	@Override
-	public String toString() {
-		return "nickname: " + nickname + ',' + " age: " + age + ',' + " initials: " + initials + ',' + " money: "
-				+ money + ',' + " isHomeAnimal: " + isHomeAnimals + ',' + " color: " + color + ',' + " weight "
-				+ weight;
 	}
 }
